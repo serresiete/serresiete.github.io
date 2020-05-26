@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe");
+@import url("https://fonts.googleapis.com/css?family=Mukta+Malar:300,700")
+
+
+
+body{
+  
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-family: "Mukta Malar"
+}
+
+.grid-layout header {
+  display: grid;
+  grid-column: 1 / 3;
+  background-color: #fcf876;
+}
+
+.grid-layout header h1 {
+  grid-column: 1 / 3;
+  text-align: center;
+}
+
+.grid-layout nav {
+  background-color: #3797a4;
+}
+
+.grid-layout nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  padding: 10%;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.grid-layout nav a:hover{
+  background-color: #3785a1;
+}
+
+.grid-layout div.main {
+  background-color: #f8b24f;
+  text-align: center;
+}
+
+.grid-layout header__left-side{
+  color: black;
+}
+
+.grid-layout header__right-side{
+  color: black;
+}
